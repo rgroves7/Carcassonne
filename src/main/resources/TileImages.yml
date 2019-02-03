@@ -1,0 +1,73 @@
+images:
+  - name: "A"
+    x: 0
+    y: 0
+  - name: "B"
+    x: 90
+    y: 0
+  - name: "C"
+    x: 180
+    y: 0
+  - name: "D"
+    x: 270
+    y: 0
+  - name: "E"
+    x: 360
+    y: 0
+  - name: "F"
+    x: 450
+    y: 0
+  - name: "G"
+    x: 0
+    y: 90
+  - name: "H"
+    x: 90
+    y: 90
+  - name: "I"
+    x: 180
+    y: 90
+  - name: "J"
+    x: 270
+    y: 90
+  - name: "K"
+    x: 360
+    y: 90
+  - name: "L"
+    x: 450
+    y: 90
+  - name: "M"
+    x: 0
+    y: 180
+  - name: "N"
+    x: 90
+    y: 180
+  - name: "O"
+    x: 180
+    y: 180
+  - name: "P"
+    x: 270
+    y: 180
+  - name: "Q"
+    x: 360
+    y: 180
+  - name: "R"
+    x: 450
+    y: 180
+  - name: "S"
+    x: 0
+    y: 270
+  - name: "T"
+    x: 90
+    y: 270
+  - name: "U"
+    x: 180
+    y: 270
+  - name: "V"
+    x: 270
+    y: 270
+  - name: "W"
+    x: 360
+    y: 270
+  - name: "X"
+    x: 450
+    y: 270

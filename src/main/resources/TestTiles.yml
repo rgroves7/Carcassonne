@@ -1,0 +1,297 @@
+a:
+  name: A
+  quantity: 2
+  edges: [FIELD, FIELD, ROAD, FIELD]
+  segments:
+  - feature: field
+    coords: [[1, 1, 1],
+             [1, 0, 1],
+             [1, 0, 1]]
+  - feature: cloister
+    coords: [[0, 0, 0],
+             [0, 1, 0],
+             [0, 0, 0]]
+  - feature: intersection
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 1, 0]]
+c:
+  name: C
+  quantity: 1
+  edges: [CITY, CITY, CITY, CITY]
+  segments:
+  - feature: pennant
+    coords: [[1, 1, 1],
+             [1, 1, 1],
+             [1, 1, 1]]
+d:
+  name: D
+  quantity: 3
+  edges: [ROAD, CITY, ROAD, FIELD]
+  segments:
+  - feature: field
+    coords: [[1, 0, 0],
+             [1, 0, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 0, 1],
+             [0, 0, 1]]
+  - feature: road
+    coords: [[0, 1, 0],
+             [0, 1, 0],
+             [0, 1, 0]]
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 1],
+             [0, 0, 0]]
+e:
+  name: E
+  quantity: 5
+  edges: [CITY, FIELD, FIELD, FIELD]
+  segments:
+  - feature: city
+    coords: [[0, 1, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [1, 1, 1],
+             [1, 1, 1]]
+f:
+  name: F
+  quantity: 2
+  edges: [FIELD, CITY, FIELD, CITY]
+  segments:
+  - feature: pennant
+    coords: [[0, 0, 0],
+             [1, 1, 1],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 1, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 1, 0]]
+h:
+  name: H
+  quantity: 3
+  edges: [FIELD, CITY, FIELD, CITY]
+  segments:
+  - feature: field
+    coords: [[0, 1, 0],
+             [0, 1, 0],
+             [0, 1, 0]]
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 1],
+             [0, 0, 0]]
+  - feature: city
+    coords: [[0, 0, 0],
+             [1, 0, 0],
+             [0, 0, 0]]
+i:
+  name: I
+  quantity: 2
+  edges: [FIELD, CITY, CITY, FIELD]
+  segments:
+  - feature: field
+    coords: [[1, 1, 0],
+             [1, 1, 0],
+             [0, 0, 0]]
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 1],
+             [0, 0, 0]]
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 1, 0]]
+
+j:
+  name: J
+  quantity: 3
+  edges: [CITY, ROAD, ROAD, FIELD]
+  segments:
+  - feature: city
+    coords: [[0, 1, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: road
+    coords: [[0, 0, 0],
+             [0, 1, 1],
+             [0, 1, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 0, 1]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [1, 1, 0],
+             [1, 0, 0]]
+k:
+  name: K
+  quantity: 3
+  edges: [ROAD, CITY, FIELD, ROAD]
+  segments:
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 1],
+             [0, 0, 0]]
+  - feature: road
+    coords: [[0, 1, 0],
+             [1, 1, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[1, 0, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 1, 0],
+             [1, 1, 0]]
+l:
+  name: L
+  quantity: 3
+  edges: [ROAD, CITY, ROAD, ROAD]
+  segments:
+  - feature: city
+    coords: [[0, 0, 0],
+             [0, 0, 1],
+             [0, 0, 0]]
+  - feature: intersection
+    coords: [[0, 1, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: intersection
+    coords: [[0, 0, 0],
+             [1, 0, 0],
+             [0, 0, 0]]
+  - feature: intersection
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 1, 0]]
+  - feature: field
+    coords: [[1, 0, 0],
+             [0, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 0, 1],
+             [0, 0, 1]]
+m:
+  name: M
+  quantity: 2
+  edges: [CITY, FIELD, FIELD, CITY]
+  segments:
+  - feature: pennant
+    coords: [[1, 1, 0],
+             [1, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 1, 1],
+             [0, 1, 1]]
+o:
+  name: 0
+  quantity: 2
+  edges: [CITY, ROAD, ROAD, CITY]
+  segments:
+  - feature: pennant
+    coords: [[1, 1, 0],
+             [1, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 1, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 0, 1]]
+  - feature: road
+    coords: [[0, 0, 0],
+             [0, 1, 1],
+             [0, 1, 0]]
+p:
+  name: P
+  quantity: 3
+  edges: [CITY, ROAD, ROAD, CITY]
+  segments:
+  - feature: city
+    coords: [[1, 1, 0],
+             [1, 0, 0],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 1, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 0, 1]]
+  - feature: road
+    coords: [[0, 0, 0],
+             [0, 1, 1],
+             [0, 1, 0]]
+t:
+  name: T
+  quantity: 1
+  edges: [CITY, CITY, ROAD, CITY]
+  segments:
+  - feature: city
+    coords: [[1, 1, 1],
+             [1, 1, 1],
+             [0, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 0, 1]]
+  - feature: intersection
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [0, 1, 0]]
+u:
+  name: U
+  quantity: 8
+  edges: [ROAD, FIELD, ROAD, FIELD]
+  segments:
+  - feature: road
+    coords: [[0, 1, 0],
+             [0, 1, 0],
+             [0, 1, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [1, 0, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[0, 0, 1],
+             [0, 0, 1],
+             [0, 0, 1]]
+v:
+  name: V
+  quantity: 9
+  edges: [FIELD, FIELD, ROAD, ROAD]
+  segments:
+  - feature: road
+    coords: [[0, 0, 0],
+             [1, 1, 0],
+             [0, 1, 0]]
+  - feature: field
+    coords: [[0, 0, 0],
+             [0, 0, 0],
+             [1, 0, 0]]
+  - feature: field
+    coords: [[1, 1, 1],
+             [0, 0, 1],
+             [0, 0, 1]]
